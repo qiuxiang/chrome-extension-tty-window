@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "sucrase . -d . -t typescript"
+  },
   "devDependencies": {
     "@types/chrome": "^0.0.217",
     "sucrase": "^3.29.0"
